@@ -1,0 +1,41 @@
+----- GAMEPLAY -----
+- Dash
+  - Omnidirectional, aimed with mouse or left stick
+  - Can be used once in midair
+  - Full i-frames during animation
+  - Stretch Goal: Celeste-type interactions (wallbounce, wavedash, hyper, super)
+- Bullet time?
+- Bullet deflect
+- Enemies
+  - Soldier: Basic ranged enemy that fires single shots.
+  - Commando: Fires full-auto bursts of mid-ranged projectiles.
+  - Assassin: High-speed melee enemy with a dash ability that charges in with a sword. Can be
+    parried, but doing briefly disables your attack.
+  - Sniper: Long-range enemy with a laser sight. Takes a few seconds to aim, then fires a hitscan
+    shot that cannot be parried.
+
+----- LEVELS -----
+- Tutorial 01: Basic movement
+- Tutorial 02: Basic combat
+
+----- MENUS -----
+- Main Menu
+  - New game/level select/settings
+- Settings
+  - Keybinds
+  - Assist mode
+  - Low/no particles
+  - Save exporter?
+- Level select
+  - Shows best time and deaths if completed
+  - Par times?
+
+----- OTHER -----
+- Hitstop?
+- Level 
+- OOP UI/Menu system
+- Particle system
+- Assist Mode
+  - Global game slowdown
+  - Shield (+1 health; resets on checkpoint)
+  - Full invincibility

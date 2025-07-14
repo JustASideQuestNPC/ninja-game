@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    // "module": "ESNext",
+    "noImplicitAny": true,
+    "outFile": "js_build/build.js",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  // define files manually to control load order
+  "files": [
+    // p5.js types; MUST be first
+    "global.d.ts",
+    
+    "src/constants.ts",
+    "src/levels.ts",
+    
+    "src/engine/utils.ts",
+    "src/engine/vector.ts",
+    "src/engine/input.ts",
+    "src/engine/collider.ts",
+    "src/engine/kepler.ts",
+    // "src/engine/particle-system.ts",
+    "src/engine/dev-console.ts",
+    "src/engine/collider.ts",
+    "src/engine/random.ts",
+
+    "src/utils/math.ts",
+    "src/utils/physics.ts",
+    "src/utils/gamepad-icons.ts",
+
+    // "src/entities/particles.ts",
+    "src/entities/bullet.ts",
+    "src/entities/player.ts",
+    "src/entities/wall.ts",
+    "src/entities/wallrun-surface.ts",
+    "src/entities/enemy-base.ts",
+    "src/entities/turret-enemy.ts",
+    "src/entities/static-laser.ts",
+    "src/entities/floating-text.ts",
+    "src/entities/checkpoint.ts",
+    "src/entities/bullet-wall.ts",
+    "src/entities/melee-enemy.ts",
+    "src/entities/level-exit.ts",
+    "src/entities/spikes.ts",
+
+    "src/ui/ui-manager.ts",
+    "src/ui/text-button.ts",
+
+    "src/npc-logo.ts",
+    "src/game-states.ts",
+    "src/console-commands.ts",
+    "src/main.ts"
+  ]
+}
